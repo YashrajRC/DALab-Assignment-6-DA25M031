@@ -49,7 +49,7 @@ To assess the effectiveness of different imputation strategies by:
 |:---------|:---------|:---------:|:-------------:|:--------------:|:----------------:|:-------------|
 | **A** | Median Imputation | 0.8078 | 0.3526 | 0.6199 | 0.7689 | Simplest, ignores feature relationships. |
 | **B** | Linear Regression | 0.8204 | 0.3891 | 0.6419 | 0.7830 | Better — captures linear dependencies. |
-| **C** | KNN Regression | 0.8210 | 0.3925 | 0.6352 | 0.7840 | Best — handles non-linear relations. |
+| **C** | KNN Regression | 0.8210 | 0.3925 | 0.6437 | 0.7840 | Best — handles non-linear relations. |
 | **D** | Listwise Deletion | 0.8165 | 0.3780 | 0.6352 | 0.7786 | Acceptable but loses data (reduced generalization). |
 
 ---
